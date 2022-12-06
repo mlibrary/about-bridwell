@@ -10,5 +10,5 @@ description: Using translation theory and new approaches in travel studies and
   the search for new places and “authentic” experiences.
 orderOnPage: 1
 readLink: https://doi.org/10.3998/mpub.12746627
-buyLink: https://doi.org/10.3998/mpub.12746627
+buyLink: noBuyLink
 ---
