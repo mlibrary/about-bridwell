@@ -1,7 +1,7 @@
 // colors and theming
 $theme-colors: (
-  "primary": #311A4D,
-  "secondary": #5D3C85,
+  "primary": #354ca1,
+  "secondary": #262626,
   "muted": #EAEAEA
 );
 
@@ -9,32 +9,29 @@ $theme-colors: (
 @import "../bootstrap/scss/bootstrap";
 
 // typography
-@mixin brandon {
-  font-family: brandon-grotesque, sans-serif;
+@mixin plantin {
+  font-family: plantin, georgia, serif;
 }
 
-.brandon {
-  @include brandon;
+.plantin {
+  @include plantin;
 }
 
-@mixin abril {
-  font-family: abril-text, serif;
+@mixin trade-gothic {
+  font-family: trade-gothic-next, arial, sans-serif;
 }
 
-.abril {
-  @include abril;
+.trade-gothic {
+  @include trade-gothic;
 }
 
 body {
-  @include brandon;
+  @include trade-gothic;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5 {
-    @include abril;
+h2 {
+    @include plantin;
     font-weight: 500;
 }
 
@@ -46,16 +43,22 @@ h3,
 h4,
 h5 {
   margin-top: 1.5rem;
+  @include trade-gothic;
 }
 
 // colors
-$amherst-brand-color: #311A4D;
-$amherst-accent-color: #6837A3;
-$amherst-light-blue: #64dfeb;
-$amherst-green: #458246;
-$amherst-dark-grey: #505061;
-$amherst-light-grey: #9BA1A7;
-$amherst-black-80: #342f2e;
+$bridwell-brand-color: #354ca1;
+$bridwell-accent-color: #262626;
+
+$bridwell-accent-link: #3366cc;
+
+$bridwell-grey-1: #e5e5e5;
+$bridwell-grey-2: #d5d6d2;
+$bridwell-grey-3: #989c97;
+$bridwell-grey-4: #655a52;
+
+$bridwell-white: #fff;
+$bridwell-black-80: #342f2e;
 
 :focus {
   outline: 3px solid #00AFEC;
@@ -75,33 +78,30 @@ p {
 
 // buttons
 .btn {
-  @include brandon;
+  @include trade-gothic;
 }
 
 
 // navigation
 .navbar {
-  @include brandon;
-
-  min-height: 6rem;
-
-  .navbar-brand h1 {
-    font-size: 1.6rem;
-    margin: initial;
-    display: inline;
-    font-weight: 400;
-  }
+  @include trade-gothic;
+  background-color: $bridwell-brand-color;
+  color: $bridwell-white;
 
   .navbar-brand-logo {
     vertical-align: middle;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
   }
 
 }
 
 // page
 .page-container {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 // cards
@@ -154,12 +154,12 @@ p {
 
 // home - tagline and catalog container
 .tagline-catalog-container {
-  background-color: $amherst-brand-color;
+  background-color: $bridwell-accent-color;
   padding: 4rem 0;
   border-top: 1px solid rgba(0,0,0,.125);
 
   .tagline {
-    @include abril;
+    @include plantin;
     font-weight: bold;
     font-size: 1.6rem;
     margin-left: 1.5em;
@@ -227,7 +227,7 @@ p {
 }
 
 .news-item .main {
-  @include abril;
+  @include plantin;
   line-height: 1.7;
   font-size: 1.1rem;
 }
@@ -237,7 +237,7 @@ p {
     p {
       font-size: 1.5rem;
       margin-bottom: 1em;
-      @include brandon;
+      @include trade-gothic;
       line-height: 1.5;
     }
 
@@ -254,7 +254,7 @@ p {
   }
 
   .card:hover {
-    border: 1px solid $amherst-brand-color;
+    border: 1px solid $bridwell-brand-color;
   }
 
   .card-image {
@@ -285,7 +285,7 @@ p {
 }
 
 .jumbotron {
-  background-color: $amherst-brand-color;
+  background-color: $bridwell-brand-color;
   margin-bottom: 4rem;
 }
 
@@ -299,7 +299,7 @@ p {
     color: #f8f9fa;
   }
   p.join-tag {
-    color: $amherst-accent-color;
+    color: $bridwell-accent-color;
     font-size: 1.5rem;
     margin-bottom: 0;
   }
@@ -311,7 +311,7 @@ p {
 }
 
 thead {
-  background-color: $amherst-brand-color;
+  background-color: $bridwell-brand-color;
   color: #f8f9fa;
 }
 
@@ -348,7 +348,7 @@ p.social {
     svg {
       display: inline-block;
       vertical-align: middle;
-      fill: $amherst-brand-color;
+      fill: $bridwell-brand-color;
     }
   }
   a:first-of-type {
@@ -358,7 +358,7 @@ p.social {
 
 // footer
 .footer {
-  background-color: $amherst-brand-color;
+  background-color: $bridwell-brand-color;
   border-top: 1px solid rgba(0,0,0,.125);
   padding: 3rem 0;
 
@@ -377,7 +377,7 @@ p.social {
       svg {
         display: inline-block;
         vertical-align: middle;
-        fill: $amherst-light-blue;
+        fill: $bridwell-accent-link;
       }
     }
     a:first-of-type {

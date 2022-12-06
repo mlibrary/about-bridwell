@@ -10,6 +10,8 @@ const Book = ({cover, book}) => {
     description,
   } = book
 
+  const showBuyLink = buyLink === "noBuyLink" ? false : true
+
   return (
     <div className="card mb-3 book-card">
       <div className="row no-gutters">
@@ -22,7 +24,7 @@ const Book = ({cover, book}) => {
             <p className="card-subtitle text-muted h6">{author}</p>
             <p className="card-text">{description}</p>
             <a className="card-link btn btn-secondary btn-lg" role="button" href={readLink}>Read free online</a>
-            <a className="card-link btn btn-outline-primary btn-lg" role="button" href={buyLink}>Buy</a>
+            { showBuyLink === true && <a className="card-link btn btn-outline-primary btn-lg" role="button" href={buyLink}>Buy</a> }
           </div>
         </div>
       </div>
