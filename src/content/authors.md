@@ -20,4 +20,4 @@ This area is focused on the library’s collections and includes The New Scholar
 
 Anyone with a compelling idea that fits within our mission and parameters of publishing can be considered. Authors maintain copyright, and Bridwell Press retains the right to republish. Authors do not pay to publish and do not get royalties. The cost of production and maintenance are underwritten by Bridwell Library and Bridwell Press.
 
-We do not have an active call for submissions, but encourage authors with questions to contact us.
+We do not have an active call for submissions, but encourage authors with questions to <a href="/contact">contact us</a>.

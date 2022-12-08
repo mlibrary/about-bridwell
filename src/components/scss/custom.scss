@@ -101,7 +101,7 @@ p {
 // page
 .page-container {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 // cards
@@ -362,6 +362,20 @@ p.social {
   border-top: 1px solid rgba(0,0,0,.125);
   padding: 3rem 0;
 
+  .logo {
+    margin: 0 0 0 -10px;
+    padding: 0;
+    img {
+      width: 180px;
+    }
+  }
+
+  .primary-logo {
+    border-bottom: 2px solid #59C3C3;
+    width: 41%;
+    margin-bottom: 10px;
+  }
+  
   .fulcrum {
     vertical-align: baseline;
   }

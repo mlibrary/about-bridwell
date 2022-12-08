@@ -72,10 +72,10 @@ query {
 
 const IndexPage = ({data}) => {
   const tagline = data.home.frontmatter.taglineSection
-  const newsletter = data.home.frontmatter.newsletterSection
+  // const newsletter = data.home.frontmatter.newsletterSection
   // const fundraiser = data.home.frontmatter.fundraiserSection
   // const map = data.home.frontmatter.mapSection
-  const catalog = data.home.frontmatter.catalogSection
+  // const catalog = data.home.frontmatter.catalogSection
   const books = data.books.edges
   // const news = data.news.edges
   // const events = data.events.edges
@@ -99,33 +99,13 @@ const IndexPage = ({data}) => {
               <div className="tagline-container col-md-8">
                 <Tagline text={tagline.text} />
               </div>
-              <div className="newsletter-container col-md-4">
-                <Catalog catalog={catalog} />
+              <div className="col-md-2 offset-md-2">
+                      <p className="text-white">Interested in publishing your next book with us?</p>
+                      <a className="btn btn-primary" href="/authors">Learn more</a>
               </div>
             </div>
           </div>
-        </section>
-        <section className="author-library-container">
-          <div className="container">
-            <div className="row">
-              <div className="author-container col-sm">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <p>Interested in publishing your next book with us?</p>
-                    </div>
-                    <div className="col-md-6">
-                      <a className="btn btn-secondary" href="/authors">Publish With Us</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="newsletter-container col-sm">
-                  <Newsletter newsletter={newsletter} />
-              </div>
-            </div>
-          </div>
-        </section>
+        </section>    
     </Layout>
   )
 }
