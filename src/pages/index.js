@@ -28,17 +28,6 @@ query {
         url
         buttonLabel
       }
-      catalogSection {
-        heading
-        catalogImage {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        catalogPdf
-      }
     }
   }
   books: allMarkdownRemark (
