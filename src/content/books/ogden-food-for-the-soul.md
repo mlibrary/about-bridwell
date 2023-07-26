@@ -10,5 +10,5 @@ description: Instead of the adventures of the great scholar’s theological work
   as well.
 orderOnPage: 1
 readLink: https://www.fulcrum.org/concern/monographs/7h149s37w?locale=en
-buyLink: noBuyLink
+buyLink: https://cdcshoppingcart.uchicago.edu/Cart2/Cart?ISBN=9781957946023&PRESS=mpub
 ---
