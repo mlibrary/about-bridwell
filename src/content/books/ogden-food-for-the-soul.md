@@ -8,7 +8,7 @@ description: Instead of the adventures of the great scholar’s theological work
   in this book we have an element of joyful surprise in his gastronomical
   oeuvre, and maybe there is something new and illuminating to discover in that
   as well.
-orderOnPage: 1
+orderOnPage: -2
 readLink: https://www.fulcrum.org/concern/monographs/7h149s37w?locale=en
 buyLink: https://cdcshoppingcart.uchicago.edu/Cart2/Cart?ISBN=9781957946023&PRESS=mpub
 ---
