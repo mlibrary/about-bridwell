@@ -1,4 +1,4 @@
-import CMS from 'decap-cms-app';
+import CMS from 'netlify-cms-app';
 import LinkFileComponent from "./components/linkFileComponent"
 import LinkFileButtonComponent from "./components/linkFileButtonComponent"
 
