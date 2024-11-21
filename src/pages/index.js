@@ -2,18 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// Link is commented out for now, but will need to be activated later
-// import {graphql, Link} from "gatsby"
+import {graphql, Link} from "gatsby"
 
 import BookList from "../components/books/bookList"
 import Tagline from "../components/tagline"
-import Newsletter from "../components/newsletter"
-// import Fundraiser from "../components/fundraiser"
-// import NewsList from "../components/news/newsList"
-// import EventList from "../components/events/eventList"
-// import MapImage from "../components/mapImage"
-// import CommunityImage from "../components/communityImage"
-import Catalog from "../components/catalog"
+import CallToAction from "../components/callToAction"
 
 export const IndexQuery = graphql`
 query {
@@ -22,10 +15,9 @@ query {
       taglineSection {
         text
       }
-      newsletterSection {
-        heading
+      callToActionSection {
         description
-        url
+        buttonUrl
         buttonLabel
       }
     }
@@ -61,13 +53,8 @@ query {
 
 const IndexPage = ({data}) => {
   const tagline = data.home.frontmatter.taglineSection
-  // const newsletter = data.home.frontmatter.newsletterSection
-  // const fundraiser = data.home.frontmatter.fundraiserSection
-  // const map = data.home.frontmatter.mapSection
-  // const catalog = data.home.frontmatter.catalogSection
+  const callToAction = data.home.frontmatter.callToActionSection
   const books = data.books.edges
-  // const news = data.news.edges
-  // const events = data.events.edges
 
   return (
     <Layout>
@@ -89,8 +76,7 @@ const IndexPage = ({data}) => {
                 <Tagline text={tagline.text} />
               </div>
               <div className="col-md-2 offset-md-2">
-                      <p className="text-white">Interested in publishing your next book with us?</p>
-                      <a className="btn btn-primary" href="/authors">Learn more</a>
+                <CallToAction callToAction={callToAction} />
               </div>
             </div>
           </div>
