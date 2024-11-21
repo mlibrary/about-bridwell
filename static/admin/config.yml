@@ -2,28 +2,6 @@ media_folder: static/assets
 public_folder: assets
 public_folder_relative: false
 collections:
-  - name: news
-    label: News
-    folder: src/content/news
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { name: templateKey, label: "Template Key", widget: hidden, default: news }
-      - { name: title, label: Title }
-      - { name: summary, label: Summary }
-      - { name: date, label: Published, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
-  - name: events
-    label: Events
-    folder: src/content/events
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { name: templateKey, label: "Template Key", widget: hidden, default: event }
-      - { name: title, label: Title }
-      - { name: summary, label: Summary }
-      - { name: date, label: Published, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
   - name: books
     label: Books
     folder: src/content/books
