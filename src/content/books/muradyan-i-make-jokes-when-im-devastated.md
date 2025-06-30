@@ -10,7 +10,7 @@ description: This collection of poetry evokes love, grief, hope and longing
   grocery stores, Tony Soprano, murderous internet moms, Soviet scientists, and
   the Cheesecake Factory all make an appearance in the constantly shifting
   landscape of this work.
-orderOnPage: 1
+orderOnPage: 0
 readLink: https://www.fulcrum.org/epubs/47429d281?locale=en
 buyLink: https://services.publishing.umich.edu/Books/I/I-Make-Jokes-When-I-m-Devastated
 ---
