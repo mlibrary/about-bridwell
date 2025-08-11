@@ -11,7 +11,7 @@ description: Beautiful People was written back and forth over the course of
   mortality, sadness, and what it means to be alive on a broken but beautiful
   planet. Through their literary friendship, they put a mirror to all our lovely
   faces.
-orderOnPage: 2
+orderOnPage: 0
 readLink: https://www.fulcrum.org/epubs/2f75rc23r?locale=en
 buyLink: https://services.publishing.umich.edu/Books/T/Tilt-Beautiful-People
 ---
