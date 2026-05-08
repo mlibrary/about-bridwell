@@ -12,7 +12,7 @@ description: Rainer Maria Rilke’s fifteen-part poetic cycle Das Marien-Leben
   fresh translation of the texts by Christopher Anderson alongside the sensitive
   artwork of Nishiki Sugawara-Beda, who has fashioned her concept particularly
   around Hindemith’s music.
-orderOnPage: 1
+orderOnPage: 0
 readLink: https://www.fulcrum.org/epubs/9p290d093?locale=en#/6/2[cover]!/4/4/1:0
 buyLink: https://services.publishing.umich.edu/Books/R/Rainer-Maria-Rilke2
 ---
