@@ -84,6 +84,14 @@ p {
   @include trade-gothic;
 }
 
+a.btn {
+  text-decoration: none;
+}
+
+.discover {
+  font-size: 1.5rem;
+}
+
 
 // navigation
 .navbar {

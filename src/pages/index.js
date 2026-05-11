@@ -63,8 +63,8 @@ const IndexPage = ({data}) => {
           <BookList books={books} />
           <div className="row mt-4">
             <div className="col-md-12">
-              <p className="text-right">
-                <a href="https://fulcrum.org/bridwell">Discover more books...</a>
+              <p className="text-center">
+                <a href="https://fulcrum.org/bridwell" className="btn-lg btn-primary btn discover" >Discover more books...</a>
               </p>
             </div>
           </div>
