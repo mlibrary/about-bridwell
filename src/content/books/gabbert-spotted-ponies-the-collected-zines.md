@@ -13,7 +13,7 @@ description: Here, within these collected zines, you’ll find enough spotted
   ground. We’ve never offered them much scrutiny; never subjected them to any
   polishing or meticulous adjustments. Each of our spotted ponies simply exists
   in its natural state, as a product of our own wild abandon.
-orderOnPage: 4
+orderOnPage: 0
 readLink: https://www.fulcrum.org/concern/monographs/gf06g5867?locale=en
 buyLink: https://services.publishing.umich.edu/Books/S/Spotted-Ponies
 ---
