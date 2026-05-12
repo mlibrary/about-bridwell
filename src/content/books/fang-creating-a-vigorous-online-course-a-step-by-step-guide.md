@@ -12,7 +12,7 @@ description: Creating a Vigorous Online Course by Berlin Fang is a
   The book is uniquely structured to walk educators through the entire course
   creation process—from planning and tool selection to assessment design,
   interaction strategies, and multimedia integration.
-orderOnPage: 3
+orderOnPage: 4
 readLink: https://www.fulcrum.org/concern/monographs/st74ct81s?locale=en
 buyLink: https://cdcshoppingcart.uchicago.edu/Cart2/Cart?ISBN=9781957946504&PRESS=mpub
 ---
