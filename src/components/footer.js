@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="primary-logo"><a href="/" className="text-light mb-2"><img src="/assets/bridwell-press-logo-white.svg" alt="" height="30" width="auto" className="inline-block" /><span className="sr-only">Bridwell Press</span></a></div>
-            <small className="d-block"><a className="text-light" href="https://www.smu.edu/libraries/scholarship/publishing/bridwell">Bridwell Press at SMU</a></small>
+            <small className="d-block"><a className="text-light" href="https://www.smu.edu/libraries/locations/bridwell/bridwell-press">Bridwell Press at SMU</a></small>
             <small className="d-block"><a className="text-light" href="/contact">Contact Us</a></small>
             <div className="logo">
               <a href="https://www.smu.edu/libraries"><img src="/assets/smu_library.png" alt="SMU library logo"/></a>
